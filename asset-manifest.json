@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Graveyard/static/css/main.46feed8c.css",
-    "main.js": "/Graveyard/static/js/main.53425101.js",
+    "main.js": "/Graveyard/static/js/main.6b153616.js",
     "static/media/background.png": "/Graveyard/static/media/background.afc434aae3499115e0ee.png",
     "index.html": "/Graveyard/index.html",
     "main.46feed8c.css.map": "/Graveyard/static/css/main.46feed8c.css.map",
-    "main.53425101.js.map": "/Graveyard/static/js/main.53425101.js.map"
+    "main.6b153616.js.map": "/Graveyard/static/js/main.6b153616.js.map"
   },
   "entrypoints": [
     "static/css/main.46feed8c.css",
-    "static/js/main.53425101.js"
+    "static/js/main.6b153616.js"
   ]
 }
