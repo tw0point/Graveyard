@@ -1,4 +1,4 @@
-# Graveyard
+# [Graveyard](https://Jake123otte1.github.io/Graveyard)
 Graveyard is a simple artistic project for experimenting and learning about React.js. It focuses on maintaining simple readability of the codebase.
 
 ## Technologies
