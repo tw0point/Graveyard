@@ -9,6 +9,7 @@ function InputForm(props){
         event.preventDefault();
         props.addThought(event.target[0].value, id, 'memory');
         setId((prev) => prev + 1);
+        event.target[0].value = "";
     }
 
     // Onchange event handler. This event creates figments.

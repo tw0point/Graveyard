@@ -6,8 +6,16 @@ function Figment(props){
     const [position, setPosition] = useState([0,0]);
     useEffect(() => {
         setPosition((prev) => {
+
             let x = Math.floor(Math.random()*100);
             let y = Math.floor(Math.random()*100);
+
+            // I want the first figment to appear in the same place each time.
+            if(props.figmentId === 0){
+                x = 5;
+                y = 80;
+                return [x,y];
+            }
 
             // I have set an exclusion zone around the user input box.
             let xNoGo = (x > 30 && x < 70) || x > 90;
@@ -34,7 +42,7 @@ function Figment(props){
         // I want the first figment to be pretty big so people can see it.
         if(props.figmentId === 0){
             setFontsize((prev) => {
-                let fontsize = (Math.random()*20)+20;
+                let fontsize = 25;
                 return fontsize;
             })
         }else{
